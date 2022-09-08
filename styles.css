@@ -1,4 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=B612&family=Noto+Sans&family=Oswald&family=PT+Sans&display=swap');
+
 body{
     background-color:#e7e6e4;
     font-size: 25px;
+    font-family: 'Noto Sans', sans-serif;
 }
+
+header{
+    text-indent: 1.5em; /* Отступ первой строки */
+    font-size:40px;
+    font-weight: 500;
+}
+
+article{
+    width: 92%;
+    margin: 0px auto 20px auto;
+    font-size: 20px;
+    text-indent: 1.5em; /* Отступ первой строки */
+    text-align: justify; /* Выравнивание по ширине */
+}
+
+section li {
+    margin: 15px 0px 0px 20px;
+    text-indent:0em; /* Отступ первой строки */
+  }
+
+  section article {
+    font-size: 0.96em;
+  }
