@@ -1,30 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=B612&family=Noto+Sans&family=Oswald&family=PT+Sans&display=swap');
 
-body{
-    background-color:#e7e6e4;
-    font-size: 25px;
+body {
+
+    background-color: #e7e6e4;
+    font-size: 20px;
     font-family: 'Noto Sans', sans-serif;
 }
 
-header{
-    text-indent: 1.5em; /* Отступ первой строки */
-    font-size:40px;
+#navbar {
+
+    position: fixed;
+    min-width: 340px;
+    height: 100%;
+    border-right: solid;
+    border-color: gray;
+    top: 0px;
+    left: 0px;
+
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 350px;
+
+}
+
+main header {
+    text-indent: 1.1em;
+    /* Отступ первой строки */
+    font-size: 40px;
     font-weight: 500;
 }
 
-article{
+nav header {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 34px;
+}
+
+#navbar ul {
+    width: 100%;
+    padding-left: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+}
+
+#navbar li {
+    list-style-type: none;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    border-top: 1px solid;
+}
+
+#navbar li a {
+    text-decoration: none;
+    margin-left: 5px;
+    cursor: pointer;
+
+}
+
+#navbar li a:visited {
+    color: black;
+
+}
+
+#navbar li a:hover {
+    color: orange;
+
+
+
+}
+
+article {
     width: 92%;
     margin: 0px auto 20px auto;
     font-size: 20px;
-    text-indent: 1.5em; /* Отступ первой строки */
-    text-align: justify; /* Выравнивание по ширине */
+    text-indent: 1.5em;
+    /* Отступ первой строки */
+    text-align: justify;
+    /* Выравнивание по ширине */
 }
 
-section li {
-    margin: 15px 0px 0px 20px;
-    text-indent:0em; /* Отступ первой строки */
-  }
-
-  section article {
-    font-size: 0.96em;
-  }
+section {
+    margin-top: 30px;
+}
