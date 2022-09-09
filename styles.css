@@ -16,7 +16,8 @@ body {
     border-color: gray;
     top: 0px;
     left: 0px;
-
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 #main-doc {
@@ -41,8 +42,7 @@ nav header {
 #navbar ul {
     width: 100%;
     padding-left: 0;
-    overflow-y: auto;
-    overflow-x: hidden;
+   
 
 }
 
