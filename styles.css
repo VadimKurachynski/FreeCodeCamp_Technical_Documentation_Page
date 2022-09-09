@@ -51,24 +51,14 @@ nav header {
     width: 100%;
     padding: 10px 0px 10px 0px;
     border-top: 1px solid;
+    
 }
 
 #navbar li a {
     text-decoration: none;
     margin-left: 5px;
     cursor: pointer;
-
-}
-
-#navbar li a:visited {
     color: black;
-
-}
-
-#navbar li a:hover {
-    color: orange;
-
-
 
 }
 
