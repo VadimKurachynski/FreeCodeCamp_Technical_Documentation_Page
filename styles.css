@@ -60,9 +60,7 @@ article {
     margin: 0px auto 20px auto;
     font-size: 20px;
     text-indent: 1.5em;
-    /* Отступ первой строки */
     text-align: justify;
-    /* Выравнивание по ширине */
 }
 
 section {
