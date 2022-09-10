@@ -22,12 +22,10 @@ body {
 #main-doc {
     position: absolute;
     margin-left: 350px;
-
 }
 
 main header {
     text-indent: 1.1em;
-    /* Отступ первой строки */
     font-size: 40px;
     font-weight: 500;
 }
